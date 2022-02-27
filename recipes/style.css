@@ -1,10 +1,14 @@
 body {
     background-color: #141414;
     text-align: center;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
 div {
     color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 image {
@@ -12,6 +16,10 @@ image {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+
+p {
+    max-width: 50%;
 }
 
 #copyright {
